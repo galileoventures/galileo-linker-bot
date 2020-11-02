@@ -4,7 +4,7 @@ A Slackbot that lets you shorten links with the [Galileo link shortener](https:/
 
 The Slackbot takes a command like
 
-/shorten https://yahoo.com /lol
+`/shorten https://yahoo.com /lol`
 
 And saves the key-value pair into Cloudflare KV storage so that the short link https://galileo.lol/lol will then redirect to https://yahoo.com.
 
