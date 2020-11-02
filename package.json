@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "galileo-shorten-slackbot",
+  "version": "1.0.0",
+  "description": "A way to manage KV stored shortlinks via a Slackbot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Hugh Stephens <hughstephens@hughstephens.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "qs": "^6.9.4",
+    "wrangler-js": "^0.1.11"
+  }
+}
